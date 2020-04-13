@@ -1,0 +1,210 @@
+/* 1024px to 1200px (widths smaller that the 1140px row) */
+
+@media only screen and (max-width: 1200px) {
+    
+    .logo-heading { height: 360px; }
+
+    .row { padding: 0 2%; }
+
+    .features { width: 90%; }
+
+    .contact-form { width: 80%; }
+
+    .form-field { padding: 0; }
+
+    .long-copy { 
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .footer-nav li { 
+        margin: 10px 10px;
+        font-size: 95%; }
+
+    .box { padding: 1%; }
+    
+    .section-offer .btn {
+        width: 18%;
+        margin-left: 41%;
+    }
+
+}
+
+/* 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+    
+    body { font-size: 16px; }
+    
+    section { padding-top: 70px; }
+    
+    .features { width: 98%; }
+    
+    p { text-align: center; }
+    
+    .long-copy { 
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .contact-form { width: 100%; }
+    
+    .label { width: 25%; }
+    
+    .footer-nav li { 
+        margin: 12px 6px 0 6px;
+        font-size: 80%; }
+
+    .social-links-footer li { font-size: 90%; }
+
+    footer p { font-size: 70%; }
+    
+    .section-offer .btn {
+        width: 22%;
+        margin-left: 38%;
+    }
+    
+    .contact-box { padding: 2%; }
+    .contact-box p { font-size: 85%; }
+    
+    input[type=submit] {
+    margin-right: 10%; }
+
+}
+
+
+
+
+
+/* 481px to 767px */
+
+@media only screen and (max-width: 767px) {
+     
+    .row { padding: 0 4%; }
+    
+    .col { 
+        width: 100%;
+        margin: 0 0 5% 0;
+    }
+    
+    .logo-heading { height: 300px; }
+    
+    body { font-size: 15px; }
+    
+    section { padding-top: 50px; }
+    
+    .main-nav {display: none;}
+    .mobile-nav-icon { display: inline-block; }
+    
+    .main-nav {
+        width: 60%;
+        margin-left: 12%;
+        float: left;
+    }
+    
+    .main-nav li {
+        display: block;
+        margin: 10px 0px;
+        text-align: center;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited,
+    .main-nav li a:hover,
+    .main-nav li a:active {
+        display: block;
+        border-bottom: 0;
+        padding: 10px 0;
+    }
+    
+    .sticky .main-nav li a:link, 
+    .sticky .main-nav li a:visited,
+    .sticky .main-nav li a:hover, 
+    .sticky .main-nav li a:active {
+        padding: 10px 0;
+        border-bottom: 0;
+    }
+    
+    h2 { font-size: 160%; }
+    
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .section-offer .btn {
+        width: 32%;
+        margin-left: 34%;
+        font-size: 90%;
+    }
+    
+    .features { width: 85%; }
+    
+    .box {padding: 4%;}
+    
+    .meals-showcase li { width: 50%; }
+    
+    .section-offer .btn { margin-bottom: 20px; }
+    
+    .contact-box { padding: 3%; }
+    .contact-box p { font-size: 100%; }
+
+    footer p { margin-top: 0px; }
+        
+    .footer-nav { 
+        width: 100%; 
+        text-align: center; 
+    }
+    
+    .footer-nav li { font-size: 90%; }
+    
+    footer { padding: 20px; }
+    
+    
+    .social-links-footer {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .contact-form { 
+        width: 90%;
+        margin: 0 auto 50px auto;
+    }
+    
+    .label { margin-bottom: 6px; }
+    
+    .input-field { margin-bottom: 6px; }
+    
+    .input-field-2 { margin-bottom: 20px; }
+    
+    .form-field { padding: 0; }
+    
+    .submit-label { margin: 0;}
+    
+    input[type=submit] {
+        float: none;
+        margin-right: 0;
+    }
+    
+    .map-resized { 
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .map { display: none; }
+
+}
+
+
+
+/* 0px to 480px */
+
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    .contact-form { width: 100%; }
+}
+
